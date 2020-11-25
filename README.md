@@ -26,7 +26,7 @@ Here are the files I downloaded in order to work on this project:
 ```
 
 Afer installing the two versions of the Oracle Java JDK (8u261 and 11.0.9), Grails 4.0.5, and the JetBrains IntelliJ IDEA, I used the command line to build 
-the simple "bookstore405web" web application and test it with the Firefox web browser (at URL http://localhost:8080).  For this initial work I used the Java 8u261 JDK.
+the simple "bookstore405web" web application and test it with the Firefox web browser (at URL http://localhost:8080).  For this initial work I used the Oracle Java 8u261 JDK.
 
 ```
 Microsoft Windows [Version 10.0.19042.630]
@@ -70,4 +70,48 @@ grails generate-all bookstore405web.Book
 grails schema-export
 copy .\build\ddl.sql ..\..\bookstore405web.ddl.sql
 grails run-app
+```
+
+After everything worked without any problems using the Oracle Java 8u261 JDK, I switched to the Oracle Java 11.0.9 JDK and tried building and running the applicaiton again. 
+Despite all the grails warnings I received below, everything appears to be working correctly.
+
+```
+C:\Users\David Holberton>echo %JAVA_HOME%
+C:\LocalApps\Java\jdk1.8.0_261
+
+C:\Users\David Holberton>
+C:\Users\David Holberton>echo %JAVA_HOME%
+C:\Program Files\Java\jdk-11.0.8
+
+C:\Users\David Holberton>
+C:\Users\David Holberton>echo %JAVA_HOME%
+C:\LocalApps\Java\jdk-11.0.9
+
+C:\Users\David Holberton>
+C:\Users\David Holberton>java -version
+java version "11.0.9" 2020-10-20 LTS
+Java(TM) SE Runtime Environment 18.9 (build 11.0.9+7-LTS)
+Java HotSpot(TM) 64-Bit Server VM 18.9 (build 11.0.9+7-LTS, mixed mode)
+
+C:\Users\David Holberton>grails --version
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.codehaus.groovy.vmplugin.v7.Java7$1 (file:/C:/LocalApps/grails-4.0.5/lib/org.codehaus.groovy/groovy/jars/groovy-2.5.6.jar) to constructor java.lang.invoke.MethodHandles$Lookup(java.lang.Class,int)
+WARNING: Please consider reporting this to the maintainers of org.codehaus.groovy.vmplugin.v7.Java7$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+| Grails Version: 4.0.5
+| JVM Version: 11.0.9
+C:\Users\David Holberton>
+C:\Users\David Holberton\g2mprojects\bookstore405web>grails clean
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.codehaus.groovy.vmplugin.v7.Java7$1 (file:/C:/LocalApps/grails-4.0.5/lib/org.codehaus.groovy/groovy/jars/groovy-2.5.6.jar) to constructor java.lang.invoke.MethodHandles$Lookup(java.lang.Class,int)
+WARNING: Please consider reporting this to the maintainers of org.codehaus.groovy.vmplugin.v7.Java7$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+| Resolving Dependencies. Please wait...
+
+CONFIGURE SUCCESSFUL in 3s
+
+BUILD SUCCESSFUL in 1s
+1 actionable task: 1 executed
+C:\Users\David Holberton\g2mprojects\bookstore405web>grails run-app
 ```
