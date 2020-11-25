@@ -69,7 +69,15 @@ notepad grails-app\domain\bookstore405web\Book.groovy
 grails generate-all bookstore405web.Book
 grails schema-export
 copy .\build\ddl.sql ..\..\bookstore405web.ddl.sql
+grails dependency-report > ..\..\bookstore405web.dependency.report
 grails run-app
+
+git fetch
+git pull
+git status
+git add .
+commit -a -m "add Book domain class, other documentation artifacts"
+git push
 
 git fetch
 git pull
