@@ -70,6 +70,13 @@ grails generate-all bookstore405web.Book
 grails schema-export
 copy .\build\ddl.sql ..\..\bookstore405web.ddl.sql
 grails run-app
+
+git fetch
+git pull
+git status
+git add .
+commit -a -m "add Book domain class, other documentation artifacts"
+git push
 ```
 
 After everything worked without any problems using the Oracle Java 8u261 JDK, I switched to the Oracle Java 11.0.9 JDK and tried building and running the applicaiton again. 
