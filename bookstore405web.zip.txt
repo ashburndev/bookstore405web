@@ -1,0 +1,130 @@
+
+7-Zip 19.00 (x64) : Copyright (c) 1999-2018 Igor Pavlov : 2019-02-21
+
+Scanning the drive for archives:
+1 file, 807978 bytes (790 KiB)
+
+Listing archive: bookstore405web.zip
+
+--
+Path = bookstore405web.zip
+Type = zip
+Physical Size = 807978
+
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+2020-11-14 19:16:38 D....            0            2  \bookstore405web
+2020-11-14 19:16:38 .....          146          114  bookstore405web\gradle.properties
+2020-11-14 19:16:38 D....            0            2  bookstore405web\gradle
+2020-11-14 19:16:38 D....            0            2  bookstore405web\gradle\wrapper
+2020-11-14 19:16:38 .....          202          124  bookstore405web\gradle\wrapper\gradle-wrapper.properties
+2020-11-14 19:16:38 .....        55190        49700  bookstore405web\gradle\wrapper\gradle-wrapper.jar
+2020-11-14 19:16:38 .....         5305         2050  bookstore405web\gradlew
+2020-11-14 19:16:38 .....         2269          903  bookstore405web\gradlew.bat
+2020-11-14 19:16:38 D....            0            2  bookstore405web\grails-app
+2020-11-14 19:16:38 D....            0            2  bookstore405web\grails-app\conf
+2020-11-14 19:16:38 .....         1348          611  bookstore405web\grails-app\conf\logback.groovy
+2020-11-14 19:16:38 D....            0            2  bookstore405web\grails-app\conf\spring
+2020-11-14 19:16:38 .....           47           49  bookstore405web\grails-app\conf\spring\resources.groovy
+2020-11-14 19:16:38 .....         3670         1220  bookstore405web\grails-app\conf\application.yml
+2020-11-14 19:16:38 D....            0            2  bookstore405web\grails-app\i18n
+2020-11-14 19:16:38 .....         3312          835  bookstore405web\grails-app\i18n\messages.properties
+2020-11-14 19:16:38 .....         3424          960  bookstore405web\grails-app\i18n\messages_cs.properties
+2020-11-14 19:16:38 .....         3405          894  bookstore405web\grails-app\i18n\messages_da.properties
+2020-11-14 19:16:38 .....         3691          956  bookstore405web\grails-app\i18n\messages_de.properties
+2020-11-14 19:16:38 .....         3510          916  bookstore405web\grails-app\i18n\messages_es.properties
+2020-11-14 19:16:38 .....         2032          402  bookstore405web\grails-app\i18n\messages_fr.properties
+2020-11-14 19:16:38 .....         3525          871  bookstore405web\grails-app\i18n\messages_it.properties
+2020-11-14 19:16:38 .....         3900         1094  bookstore405web\grails-app\i18n\messages_ja.properties
+2020-11-14 19:16:38 .....         3297          862  bookstore405web\grails-app\i18n\messages_nb.properties
+2020-11-14 19:16:38 .....         3421          873  bookstore405web\grails-app\i18n\messages_nl.properties
+2020-11-14 19:16:38 .....         3679         1044  bookstore405web\grails-app\i18n\messages_pl.properties
+2020-11-14 19:16:38 .....         3532          990  bookstore405web\grails-app\i18n\messages_pt_BR.properties
+2020-11-14 19:16:38 .....         2726          703  bookstore405web\grails-app\i18n\messages_pt_PT.properties
+2020-11-14 19:16:38 .....         3818          815  bookstore405web\grails-app\i18n\messages_ru.properties
+2020-11-14 19:16:38 .....         3457          992  bookstore405web\grails-app\i18n\messages_sk.properties
+2020-11-14 19:16:38 .....         3506          915  bookstore405web\grails-app\i18n\messages_sv.properties
+2020-11-14 19:16:38 .....         6209         1226  bookstore405web\grails-app\i18n\messages_th.properties
+2020-11-14 19:16:38 .....         2170          481  bookstore405web\grails-app\i18n\messages_zh_CN.properties
+2020-11-14 19:16:38 D....            0            2  bookstore405web\grails-app\init
+2020-11-14 19:16:38 D....            0            2  bookstore405web\grails-app\init\bookstore405web
+2020-11-14 19:16:38 .....          297          171  bookstore405web\grails-app\init\bookstore405web\Application.groovy
+2020-11-14 19:16:38 .....          113           94  bookstore405web\grails-app\init\bookstore405web\BootStrap.groovy
+2020-11-14 19:16:38 D....            0            2  bookstore405web\grails-app\assets
+2020-11-14 19:16:38 D....            0            2  bookstore405web\grails-app\assets\images
+2020-11-14 19:16:38 .....         2260         1123  bookstore405web\grails-app\assets\images\advancedgrails.svg
+2020-11-14 19:16:38 .....         1480          671  bookstore405web\grails-app\assets\images\documentation.svg
+2020-11-14 19:16:38 .....         6937         2138  bookstore405web\grails-app\assets\images\grails-cupsonly-logo-white.svg
+2020-11-14 19:16:38 .....        12829         4621  bookstore405web\grails-app\assets\images\grails.svg
+2020-11-14 19:16:38 .....         3428         1440  bookstore405web\grails-app\assets\images\slack.svg
+2020-11-14 19:16:38 D....            0            2  bookstore405web\grails-app\assets\images\skin
+2020-11-14 19:16:38 .....          658          663  bookstore405web\grails-app\assets\images\skin\database_add.png
+2020-11-14 19:16:38 .....          659          664  bookstore405web\grails-app\assets\images\skin\database_delete.png
+2020-11-14 19:16:38 .....          767          772  bookstore405web\grails-app\assets\images\skin\database_edit.png
+2020-11-14 19:16:38 .....          755          760  bookstore405web\grails-app\assets\images\skin\database_save.png
+2020-11-14 19:16:38 .....          726          731  bookstore405web\grails-app\assets\images\skin\database_table.png
+2020-11-14 19:16:38 .....          701          706  bookstore405web\grails-app\assets\images\skin\exclamation.png
+2020-11-14 19:16:38 .....          806          811  bookstore405web\grails-app\assets\images\skin\house.png
+2020-11-14 19:16:38 .....          778          783  bookstore405web\grails-app\assets\images\skin\information.png
+2020-11-14 19:16:38 .....          300          182  bookstore405web\grails-app\assets\images\skin\shadow.jpg
+2020-11-14 19:16:38 .....          835          117  bookstore405web\grails-app\assets\images\skin\sorted_asc.gif
+2020-11-14 19:16:38 .....          834          110  bookstore405web\grails-app\assets\images\skin\sorted_desc.gif
+2020-11-14 19:16:38 .....         7038         7043  bookstore405web\grails-app\assets\images\apple-touch-icon-retina.png
+2020-11-14 19:16:38 .....         3077         3082  bookstore405web\grails-app\assets\images\apple-touch-icon.png
+2020-11-14 19:16:38 .....         5558         1486  bookstore405web\grails-app\assets\images\favicon.ico
+2020-11-14 19:16:38 .....         2037         1828  bookstore405web\grails-app\assets\images\spinner.gif
+2020-11-14 19:16:38 D....            0            2  bookstore405web\grails-app\assets\javascripts
+2020-11-14 19:16:38 .....          399          235  bookstore405web\grails-app\assets\javascripts\application.js
+2020-11-14 19:16:38 .....       212345        43400  bookstore405web\grails-app\assets\javascripts\bootstrap.bundle.js
+2020-11-14 19:16:38 .....       358832        84112  bookstore405web\grails-app\assets\javascripts\bootstrap.bundle.js.map
+2020-11-14 19:16:38 .....        70966        20673  bookstore405web\grails-app\assets\javascripts\bootstrap.bundle.min.js
+2020-11-14 19:16:38 .....       294126        76348  bookstore405web\grails-app\assets\javascripts\bootstrap.bundle.min.js.map
+2020-11-14 19:16:38 .....       123765        20972  bookstore405web\grails-app\assets\javascripts\bootstrap.js
+2020-11-14 19:16:38 .....       211967        51220  bookstore405web\grails-app\assets\javascripts\bootstrap.js.map
+2020-11-14 19:16:38 .....        51039        14072  bookstore405web\grails-app\assets\javascripts\bootstrap.min.js
+2020-11-14 19:16:38 .....       176087        42498  bookstore405web\grails-app\assets\javascripts\bootstrap.min.js.map
+2020-11-14 19:16:38 .....        86927        30333  bookstore405web\grails-app\assets\javascripts\jquery-3.3.1.min.js
+2020-11-14 19:16:38 .....       132382        53010  bookstore405web\grails-app\assets\javascripts\jquery-3.3.1.min.js.map
+2020-11-14 19:16:38 .....        19188         6893  bookstore405web\grails-app\assets\javascripts\popper.min.js
+2020-11-14 19:16:38 D....            0            2  bookstore405web\grails-app\assets\stylesheets
+2020-11-14 19:16:38 .....          477          278  bookstore405web\grails-app\assets\stylesheets\application.css
+2020-11-14 19:16:38 .....        37644         3945  bookstore405web\grails-app\assets\stylesheets\bootstrap-grid.css
+2020-11-14 19:16:38 .....         4896         1715  bookstore405web\grails-app\assets\stylesheets\bootstrap-reboot.css
+2020-11-14 19:16:38 .....       173597        22917  bookstore405web\grails-app\assets\stylesheets\bootstrap.css
+2020-11-14 19:16:38 .....       430003        81146  bookstore405web\grails-app\assets\stylesheets\bootstrap.css.map
+2020-11-14 19:16:38 .....       140936        21032  bookstore405web\grails-app\assets\stylesheets\bootstrap.min.css
+2020-11-14 19:16:38 .....       562427        91690  bookstore405web\grails-app\assets\stylesheets\bootstrap.min.css.map
+2020-11-14 19:16:38 .....         1889          545  bookstore405web\grails-app\assets\stylesheets\errors.css
+2020-11-14 19:16:38 .....        18572         3800  bookstore405web\grails-app\assets\stylesheets\grails.css
+2020-11-14 19:16:38 .....        11759         2911  bookstore405web\grails-app\assets\stylesheets\main.css
+2020-11-14 19:16:38 .....         1696          613  bookstore405web\grails-app\assets\stylesheets\mobile.css
+2020-11-14 19:16:38 D....            0            2  bookstore405web\grails-app\controllers
+2020-11-14 19:16:38 D....            0            2  bookstore405web\grails-app\controllers\bookstore405web
+2020-11-14 19:16:38 .....          308          177  bookstore405web\grails-app\controllers\bookstore405web\UrlMappings.groovy
+2020-11-14 19:16:38 D....            0            2  bookstore405web\grails-app\views
+2020-11-14 19:16:38 .....         1138          376  bookstore405web\grails-app\views\error.gsp
+2020-11-14 19:16:38 .....         3745         1063  bookstore405web\grails-app\views\index.gsp
+2020-11-14 19:16:38 D....            0            2  bookstore405web\grails-app\views\layouts
+2020-11-14 19:16:38 .....         2888         1024  bookstore405web\grails-app\views\layouts\main.gsp
+2020-11-14 19:16:38 .....          375          221  bookstore405web\grails-app\views\notFound.gsp
+2020-11-14 19:16:38 D....            0            2  bookstore405web\grails-app\domain
+2020-11-14 19:16:38 D....            0            2  bookstore405web\grails-app\services
+2020-11-14 19:16:38 D....            0            2  bookstore405web\grails-app\taglib
+2020-11-14 19:16:38 D....            0            2  bookstore405web\grails-app\utils
+2020-11-14 19:16:38 .....         4672         1764  bookstore405web\grailsw
+2020-11-14 19:16:38 .....         2375          954  bookstore405web\grailsw.bat
+2020-11-14 19:16:38 D....            0            2  bookstore405web\src
+2020-11-14 19:16:38 D....            0            2  bookstore405web\src\integration-test
+2020-11-14 19:16:38 D....            0            2  bookstore405web\src\integration-test\groovy
+2020-11-14 19:16:38 D....            0            2  bookstore405web\src\integration-test\resources
+2020-11-14 19:16:38 .....          624          226  bookstore405web\src\integration-test\resources\GebConfig.groovy
+2020-11-14 19:16:38 D....            0            2  bookstore405web\src\main
+2020-11-14 19:16:38 D....            0            2  bookstore405web\src\main\groovy
+2020-11-14 19:16:38 D....            0            2  bookstore405web\src\main\webapp
+2020-11-14 19:16:38 D....            0            2  bookstore405web\src\test
+2020-11-14 19:16:38 D....            0            2  bookstore405web\src\test\groovy
+2020-11-14 19:16:38 .....         4821         4253  bookstore405web\grails-wrapper.jar
+2020-11-14 19:16:38 .....           94           82  bookstore405web\.gitignore
+2020-11-14 19:16:38 .....         3853         1156  bookstore405web\build.gradle
+------------------- ----- ------------ ------------  ------------------------
+2020-11-14 19:16:38            3330476       786312  82 files, 31 folders
