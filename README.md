@@ -2,7 +2,7 @@
 a simple Grails 4.0.5 web application created via the Grails Application Forge web site
 
 Previously I used my MS Windows 10 Pro laptop (a Dell XPS 15) to visit the Grails Application Forge web site (http://start.grails.org/) and generated 
-two Grails 4.0.5 web applicationa -- one for the "web" profile and one for the "angular" profile.
+two Grails 4.0.5 web applications -- one for the "web" profile and one for the "angular" profile.
 
 ```
 11/14/2020  02:16 PM           807,978 bookstore405web.zip
@@ -83,8 +83,25 @@ git fetch
 git pull
 git status
 git add .
-commit -a -m "add Book domain class, other documentation artifacts"
+commit -a -m "add bookstore405web.dependency.report text file"
 git push
+```
+```
+C:\Users\David Holberton\g2mprojects\bookstore405web>date /t
+Wed 02/03/2021
+
+C:\Users\David Holberton\g2mprojects\bookstore405web>git log --pretty=format:"%h - %an, %ai : %s"
+486d08c - ashburndev, 2020-11-25 08:32:24 -0500 : add bookstore405web.dependency.report text file
+d9fc41b - ashburndev, 2020-11-25 08:30:47 -0500 : Update README.md
+5eeb24c - ashburndev, 2020-11-25 08:20:27 -0500 : deleted bookstore405-tree-af.txt
+d5205e5 - ashburndev, 2020-11-25 08:17:12 -0500 : Update README.md
+e31965b - ashburndev, 2020-11-25 08:14:27 -0500 : Merge branch 'main' of https://github.com/ashburndev/bookstore405web into main
+51cd390 - ashburndev, 2020-11-25 08:13:20 -0500 : add Book domain class, other documentation artifacts
+7cb6df9 - ashburndev, 2020-11-25 08:09:15 -0500 : Update README.md
+7c17113 - ashburndev, 2020-11-25 07:41:23 -0500 : Create README.md
+8a211b3 - ashburndev, 2020-11-25 06:26:03 -0500 : initial commit
+
+C:\Users\David Holberton\g2mprojects\bookstore405web>
 ```
 
 After everything worked without any problems using the Oracle Java 8u261 JDK, I switched to the Oracle Java 11.0.9 JDK and tried building and running the applicaiton again. 
